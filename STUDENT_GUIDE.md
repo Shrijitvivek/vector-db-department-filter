@@ -65,7 +65,7 @@ The demo requires `OPENAI_API_KEY` in `.env`. The test is offline and does not u
 
 ### `chroma_demo.py`
 
-This is the main classroom script. It loads structured records, opens persistent storage, ingests only when needed, runs unfiltered and public-only searches, closes and reopens the database, and verifies that records remain on disk.
+This is the main classroom script. It loads structured records, opens persistent storage, ingests only when needed, runs three searches (unfiltered, public-only, and combined department and access-level filtering), closes and reopens the database, and verifies that records remain on disk.
 
 ### `utils.py`
 

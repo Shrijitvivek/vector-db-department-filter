@@ -53,7 +53,8 @@ The first run embeds and stores the corpus. The second run reuses the persisted 
 3. Embed and add records only if the collection is empty.
 4. Search for career support without a filter.
 5. Repeat with `access_level = public`.
-6. Reopen the collection from disk and print its record count.
+6. Search using both `department = career` and `access_level = public`.
+7. Reopen the collection from disk and print its record count.
 
 The access filter is not a hand-written ranking rule. It is a database constraint that prevents ineligible records from being returned.
 
